@@ -1,0 +1,16 @@
+*{
+    overflow-x: hidden;
+}
+option:hover {
+    background-color: #d97706;
+    color: white; 
+}
+
+@media screen and (max-width: 440px){
+    
+    .botones{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
