@@ -11,8 +11,8 @@ Backend: https://aplicaciontareas-production.up.railway.app/
 #### 3- "npm run dev" (Obligatoriamente debe de desplegarse en el puerto 5173, porque la politica de CORS ya está configurada así).
 
 ## Variables de entorno en el Backend:
-### Para las variables de entorno del backend se debe de configurar un archivo ".env" en el que se contendran las mismas.
-### Ademas se debe configurar un archivo ".gitignore" para que las variables de entorno no se suban a producción.
+#### Para las variables de entorno del backend se debe de configurar un archivo ".env" en el que se contendran las mismas.
+#### Ademas se debe configurar un archivo ".gitignore" para que las variables de entorno no se suban a producción.
 
 #### PORT=5000
 #### MONGO_URI=mongodb+srv://gassjau:4DJMd4BE3tJSRx4C@cluster0.g2sk3.mongodb.net/?retryWrites=false&w=majority&appName=Cluster0
